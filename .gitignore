@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Next.js specific
+next-env.d.ts
+.vercel
+
+# Drizzle migrations
+/lib/db/migrations
+
+# macOS
+.DS_Store
+*.pem
